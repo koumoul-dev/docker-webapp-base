@@ -1,0 +1,23 @@
+{
+  "name": "docker-webapp-base",
+  "version": "1.0.0",
+  "description": "A base image with our favorite stack preconfigured for easier and faster build of our services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alban Mouton <alban.mouton@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.1",
+    "body-parser": "^1.18.3",
+    "config": "^1.30.0",
+    "cors": "^2.8.4",
+    "event-to-promise": "^0.8.0",
+    "express": "^4.16.3",
+    "nuxt": "^1.4.0",
+    "simple-directory-client-express": "^0.7.1",
+    "simple-directory-client-nuxt": "^0.5.0",
+    "vuetify": "^1.0.18"
+  }
+}
