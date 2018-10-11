@@ -12,4 +12,10 @@ ENV NODE_ENV production
 WORKDIR /webapp
 ADD package.json .
 RUN npm install && node-prune
-RUN rm package.json
+RUN rm package.json package-lock.json
+
+# Default port of our webapps
+EXPOSE 8080
+
+# Check the HTTP server is started as health indicator
+HEALTHCHECK --start-period=4m --interval=10s --timeout=3s CMD curl -f http://localhost:8080/ || exit 1
