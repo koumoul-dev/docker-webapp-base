@@ -1,6 +1,6 @@
 {
   "name": "docker-webapp-base",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "description": "A base image with our favorite stack preconfigured for easier and faster build of our services.",
   "main": "index.js",
   "scripts": {
