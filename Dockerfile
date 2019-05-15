@@ -1,4 +1,4 @@
-FROM node:10.15.3-alpine
+FROM node:12.2.0-alpine
 MAINTAINER "contact@koumoul.com"
 
 RUN apk add --update curl git
@@ -19,3 +19,5 @@ EXPOSE 8080
 
 # Check the HTTP server is started as health indicator
 HEALTHCHECK --start-period=4m --interval=10s --timeout=3s CMD curl -f http://localhost:8080/ || exit 1
+
+CMD ["node", "server"]

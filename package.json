@@ -13,7 +13,7 @@
     "@koumoul/sd-vue": "^0.10.4",
     "@koumoul/vue-multianalytics": "^1.10.1",
     "@nuxtjs/axios": "^5.4.1",
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.19.0",
     "config": "^1.31.0",
     "cors": "^2.8.5",
     "event-to-promise": "^0.8.0",
@@ -21,13 +21,13 @@
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
     "moment": "^2.24.0",
-    "mongodb": "^3.2.2",
-    "nuxt": "^2.5.1",
-    "nuxt-i18n": "^5.8.5",
+    "mongodb": "^3.2.4",
+    "nuxt": "^2.7.1",
+    "nuxt-i18n": "^5.12.3",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "vue-moment": "^4.0.0",
-    "vuetify": "^1.5.7",
-    "vuetify-loader": "^1.2.1"
+    "vuetify": "^1.5.14",
+    "vuetify-loader": "^1.2.2"
   }
 }
