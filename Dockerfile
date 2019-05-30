@@ -1,4 +1,4 @@
-FROM node:12.2.0-alpine
+FROM node:12.3.1-alpine
 MAINTAINER "contact@koumoul.com"
 
 RUN apk add --update curl git
