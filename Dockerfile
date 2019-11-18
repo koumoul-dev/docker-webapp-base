@@ -1,7 +1,7 @@
-FROM node:12.10.0-alpine
+FROM node:12.13.0-alpine
 MAINTAINER "contact@koumoul.com"
 
-RUN apk add --update curl git
+RUN apk add --no-cache curl git
 RUN npm i -g npm@latest yarn
 
 # Install node-prune to reduce size of node_modules
