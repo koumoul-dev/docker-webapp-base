@@ -9,21 +9,28 @@
   "author": "Alban Mouton <alban.mouton@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@koumoul/nuxt-build-cache": "^0.3.0",
     "@koumoul/sd-express": "^0.15.1",
     "@koumoul/sd-vue": "^0.14.2",
     "@koumoul/vue-multianalytics": "^1.10.1",
     "@koumoul/vuetify-jsonschema-form": "^0.36.0",
     "@nuxtjs/axios": "^5.8.0",
     "@nuxtjs/vuetify": "^1.9.0",
+    "ajv": "^6.10.2",
+    "axios": "^0.19.0",
     "body-parser": "^1.19.0",
     "config": "^3.2.4",
+    "cookie-parser": "^1.4.4",
+    "cookie-universal-nuxt": "^2.0.19",
     "cors": "^2.8.5",
     "event-to-promise": "^0.8.0",
     "express": "^4.17.1",
     "moment": "^2.24.0",
     "mongodb": "^3.3.4",
+    "nodemon": "^1.19.4",
     "nuxt": "^2.10.2",
     "nuxt-i18n": "^6.3.1",
+    "shortid": "^2.2.15",
     "vuetify": "^2.1.10"
   }
 }
