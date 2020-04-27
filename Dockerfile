@@ -1,8 +1,8 @@
-FROM node:12.13.0-alpine
+FROM node:12.16.4-alpine
 MAINTAINER "contact@koumoul.com"
 
 RUN apk add --no-cache curl git
-RUN npm i -g npm@latest yarn
+RUN npm i -g npm@latest
 
 # Install node-prune to reduce size of node_modules
 RUN curl -sfL https://install.goreleaser.com/github.com/tj/node-prune.sh | sh -s -- -b /usr/local/bin
