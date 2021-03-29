@@ -1,4 +1,4 @@
-FROM node:12.17-alpine
+FROM node:14.16-alpine
 MAINTAINER "contact@koumoul.com"
 
 RUN apk add --no-cache curl git
