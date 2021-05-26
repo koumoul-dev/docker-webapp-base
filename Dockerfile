@@ -1,4 +1,4 @@
-FROM node:14.16-alpine
+FROM node:14.17-alpine
 MAINTAINER "contact@koumoul.com"
 
 RUN apk add --no-cache curl git
@@ -7,12 +7,8 @@ RUN npm i -g npm@latest
 # Install node-prune to reduce size of node_modules
 RUN curl -sfL https://install.goreleaser.com/github.com/tj/node-prune.sh | sh -s -- -b /usr/local/bin
 
-# Install common packages so that later npm install run faster
 ENV NODE_ENV production
 WORKDIR /webapp
-ADD package.json .
-RUN npm install && node-prune
-RUN rm package.json package-lock.json
 
 # Default port of our webapps
 EXPOSE 8080
